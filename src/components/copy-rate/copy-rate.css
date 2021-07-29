@@ -1,0 +1,7 @@
+.copy {
+  opacity: 20%;
+}
+td:hover .copy {
+  opacity: 100%;
+}
+/*# sourceMappingURL=copy-rate.css.map */

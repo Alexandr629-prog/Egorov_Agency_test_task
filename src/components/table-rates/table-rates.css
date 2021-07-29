@@ -1,0 +1,43 @@
+.currency-not {
+  text-align: center;
+  font-size: 26px;
+  opacity: 0.5;
+  border: none;
+}
+.error {
+  text-align: center;
+  font-size: 26px;
+  opacity: 0.5;
+}
+.min {
+  color: green;
+}
+.max {
+  color: red;
+}
+.header__rates {
+  cursor: pointer;
+  position: relative;
+  line-height: 1;
+  /*задаём высоту строки*/
+  text-decoration: none;
+  /*убираем подчёркивание*/
+}
+.header__rates:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  content: "";
+  transition: width 0.3s ease-out;
+}
+.header__rates:active {
+  opacity: 0.5;
+}
+.header__rates:hover:after,
+.header__rates:focus:after {
+  width: 100%;
+}
+/*# sourceMappingURL=table-rates.css.map */

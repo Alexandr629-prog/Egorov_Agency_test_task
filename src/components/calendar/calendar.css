@@ -1,0 +1,8 @@
+.calendar {
+  display: flex;
+  width: 35%;
+}
+.calendar__indent {
+  margin-right: 30px;
+}
+/*# sourceMappingURL=calendar.css.map */
